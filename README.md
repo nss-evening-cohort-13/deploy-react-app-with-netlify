@@ -2,6 +2,9 @@
 You have a couple of options for deployment. You can either use Firebase hosting or deploy using Netlify. These are the instructions for Netlify. Firebase instructions are [here](https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-3-data-driven-applications/chapters/firebase-deploy.md).
 
 
+## Benefits of Deploying with Netlify
+Netlify uses continuous deployment, which means when you push to your deployed branch, Netlify automatically deploys unless you change the settings. This means you can worry less about deploys and get detailed logs about your deploys, which are helpful if the deploy fails. Netlify will also NOT deploy the failed instance and will use the last successful deploy so you don't have to worry about your production app breaking. 
+
 ## Create the `.env` file
 1. In the ROOT of your application, create a `.env` file
 1. Place the following in that file with your keys as the values
@@ -67,5 +70,8 @@ Your deploy should have finished, but you will notice that your site page is emp
 1. Navigate to `deploys` and select the **Trigger Deploy** dropdown to redeploy
 
 ![screen shot](https://github.com/drteresavasquez/deploy-react-app-with-netlify/blob/main/6.png)
+
+## Update Firebase URL Settings
+1. In Firebase under Authentication select sign in methods, scroll to Authorized domains. Add your Netlify URL. 
 
 ## Site should be good to go!
