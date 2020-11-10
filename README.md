@@ -1,5 +1,5 @@
 # Deploy your Firebase/React App on Netlify
-You have a couple of options for deployment. You can either use Firebase hosting or deploy using Netlify. These are the instructions for Netlify. Firebase instructions are here.
+You have a couple of options for deployment. You can either use Firebase hosting or deploy using Netlify. These are the instructions for Netlify. Firebase instructions are [here](https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-3-data-driven-applications/chapters/firebase-deploy.md).
 
 
 ## Create the `.env` file
@@ -64,7 +64,7 @@ Your deploy should have finished, but you will notice that your site page is emp
 ![screen shot](https://github.com/drteresavasquez/deploy-react-app-with-netlify/blob/main/5.png)
 
 ## Redeploy
-1. Navigate to `deploys` and select the **Trigger Deply** dropdown to redeploy
+1. Navigate to `deploys` and select the **Trigger Deploy** dropdown to redeploy
 
 ![screen shot](https://github.com/drteresavasquez/deploy-react-app-with-netlify/blob/main/6.png)
 
